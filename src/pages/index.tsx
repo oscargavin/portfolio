@@ -2,14 +2,11 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { signIn, signOut, useSession } from "next-auth/react";
 import { TwitterOutlined, LinkedinFilled } from "@ant-design/icons";
 import Card from "~/components/Card";
 import { BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import HeaderLink from "~/components/HeaderLink";
-
-import { api } from "~/utils/api";
 
 const Home: NextPage = () => {
   return (

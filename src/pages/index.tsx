@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <meta name="description" content="A portfolio for Oscar Gavin" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <main className="linear-gradient h-full w-full pb-16 font-serif text-gray-50">
+      <main className="h-full w-full bg-gradient-to-b from-sky-400 to-cyan-300 pb-16 font-serif text-gray-50">
         <div className="flex w-full items-center justify-between border-b-2 border-gray-50 pt-8">
           <Link
             href="/"

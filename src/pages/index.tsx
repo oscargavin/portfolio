@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <meta name="description" content="A portfolio for Oscar Gavin" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <main className="h-full w-full bg-gradient-to-b from-gray-900 to-gray-700 pb-16 font-poppins text-gray-50">
+      <main className="h-full w-full bg-gradient-to-b from-gray-600 to-gray-800 pb-16 font-poppins text-gray-50">
         <div className="flex w-full items-center justify-between border-b-2 border-gray-50 pt-10 pb-2">
           <Link
             href="/"
@@ -37,9 +37,7 @@ const Home: NextPage = () => {
               height={50}
               className="w-1/3 rounded-full md:w-1/2"
             />
-            <h1 className="font-roboto text-xl font-bold md:text-4xl">
-              OGavin
-            </h1>
+            <h1 className="text-xl font-bold md:text-4xl">OGavin</h1>
           </Link>
           <div className="relative">
             <HiOutlineMenu

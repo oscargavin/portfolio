@@ -2,10 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-.linear-gradient {
-    background: #603813;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-}
-
-/* #af7741,#a86741 */

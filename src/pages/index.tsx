@@ -136,20 +136,6 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div>
-          {/* <div>
-            <Image></Image>
-            <h1></h1>
-          </div>
-          <div>
-            <Image></Image>
-            <h1></h1>
-          </div>
-          <div>
-            <Image></Image>
-            <h1></h1>
-          </div> */}
-        </div>
         <div className="mt-12 border-y-2 border-gray-50 bg-black/10 py-4 drop-shadow-lg backdrop-blur-lg">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center space-x-2">
@@ -164,7 +150,7 @@ const Home: NextPage = () => {
             <p className="mb-2 text-xs font-bold text-gray-200">PROJECTS</p>
             <h1 className="text-2xl font-semibold text-gray-50">My Work</h1>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg transition duration-500 ease-in-out hover:scale-105 md:flex-row">
+          <div className="mb-10 flex min-h-fit flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transform lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">Landmark Localisation</h1>
               <p className="font-extralight text-gray-200">
@@ -187,7 +173,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-contain shadow-md"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg transition duration-500 ease-in-out hover:scale-105 md:flex-row">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">Cardology.io</h1>
               <p className="font-extralight text-gray-200">
@@ -209,7 +195,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-cover shadow-md"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg transition duration-500 ease-in-out hover:scale-105 md:flex-row">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">
                 Chess Piece and Board Position Classifier
@@ -233,7 +219,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-contain"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg transition duration-500 ease-in-out hover:scale-105 md:flex-row">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">
                 Sentiment Analyser for Rotten Tomatoes Reviews

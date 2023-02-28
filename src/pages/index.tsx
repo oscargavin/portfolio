@@ -24,8 +24,8 @@ const Home: NextPage = () => {
         <meta name="description" content="A portfolio for Oscar Gavin" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <main className="h-full w-full bg-gradient-to-b from-sky-400 to-cyan-300 pb-16 font-serif text-gray-50">
-        <div className="flex w-full items-center justify-between border-b-2 border-gray-50 pt-8">
+      <main className="h-full w-full bg-gradient-to-b from-sky-400 to-cyan-300 pb-16 font-poppins text-gray-50">
+        <div className="flex w-full items-center justify-between border-b-2 border-gray-50 pt-10 pb-2">
           <Link
             href="/"
             className="ml-4 flex flex-row items-center space-x-4 pb-6 transition "
@@ -33,11 +33,13 @@ const Home: NextPage = () => {
             <Image
               src="/logo.png"
               alt="OGavin"
-              width={75}
-              height={75}
+              width={50}
+              height={50}
               className="w-1/3 rounded-full md:w-1/2"
             />
-            <h1 className="text-xl font-extralight md:text-2xl">OGavin</h1>
+            <h1 className="font-roboto text-xl font-bold md:text-4xl">
+              OGavin
+            </h1>
           </Link>
           <div className="relative">
             <HiOutlineMenu
@@ -48,7 +50,7 @@ const Home: NextPage = () => {
               height={50}
               onClick={onClick}
             ></HiOutlineMenu>
-            <div className="absolute right-6 -top-3 hidden flex-row items-center space-x-4 pb-6 lg:flex">
+            <div className="absolute right-6 -top-5 hidden flex-row items-center space-x-6 pb-6 lg:flex">
               <HeaderLink title="Home" href="/" />
               <HeaderLink title="Skills" href="/" />
               <HeaderLink title="Projects" href="/" />
@@ -150,7 +152,7 @@ const Home: NextPage = () => {
             <p className="mb-2 text-xs font-bold text-gray-200">PROJECTS</p>
             <h1 className="text-2xl font-semibold text-gray-50">My Work</h1>
           </div>
-          <div className="mb-10 flex min-h-fit flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transform lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
+          <div className="mb-10 flex min-h-fit flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transform lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-[1.03]">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">Landmark Localisation</h1>
               <p className="font-extralight text-gray-200">
@@ -173,7 +175,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-contain shadow-md"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-[1.03]">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">Cardology.io</h1>
               <p className="font-extralight text-gray-200">
@@ -195,7 +197,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-cover shadow-md"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-[1.03]">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">
                 Chess Piece and Board Position Classifier
@@ -219,7 +221,7 @@ const Home: NextPage = () => {
               className="rounded-sm object-contain"
             ></Image>
           </div>
-          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-105">
+          <div className="mb-10 flex min-h-fit transform flex-col items-center space-y-4 rounded-md border-2 border-gray-50 bg-black/10 p-6 drop-shadow-lg backdrop-blur-lg md:flex-row lg:transition lg:duration-500 lg:ease-in-out lg:hover:scale-[1.03]">
             <div className="mr-4">
               <h1 className="pb-2 font-semibold">
                 Sentiment Analyser for Rotten Tomatoes Reviews

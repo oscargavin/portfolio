@@ -69,7 +69,7 @@ const Home: NextPage = () => {
           <HeaderLink title="Contact" href="/contact" />
         </div>
         <div className="flex w-full items-center justify-between border-b-2 border-gray-50 bg-black/10 py-6 px-6 drop-shadow-lg backdrop-blur-lg">
-          <div className="flex flex-col">
+          <div className="flex flex-col opacity-100">
             <div className="mb-6 flex flex-row space-x-4">
               <Link
                 href="https://twitter.com/Oscar_Gav"
@@ -99,13 +99,13 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div>
-            <Image
+            {/* <Image
               src="/logo.png"
               alt="OGavin"
               width={300}
               height={300}
               className="w-2/3 lg:w-full"
-            ></Image>
+            ></Image> */}
           </div>
         </div>
         <div className="mt-8 flex w-full flex-col items-center justify-center">
